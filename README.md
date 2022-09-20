@@ -5,7 +5,7 @@
 
 
 
-> Trila Explores
+> Trilha Explorer
 
 Projeto construído do evento Next Level Week da Rocketseat
 
