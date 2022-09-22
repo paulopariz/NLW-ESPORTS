@@ -47,7 +47,7 @@ header img{
 }
 
 main{
-    max-width: 580px;
+    max-width: 387px;
     width: 90%;
     margin: 32px auto;
     display: grid;
@@ -58,7 +58,6 @@ main{
 
 section{
     color: white;
-    
     background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
     padding-top: 4px;
     border-radius: 10px;
@@ -169,4 +168,15 @@ main section:nth-child(3){
         opacity: 1;
         transform: translateX(0);
     }
+}
+
+/*SWIPER*/
+
+section{
+    overflow: hidden;
+}
+
+section ul{
+    flex-wrap: nowrap;
+    gap: 0;
 }

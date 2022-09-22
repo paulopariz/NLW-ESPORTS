@@ -9,6 +9,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NLW eSports</title>
     <link rel="stylesheet" href="style.css">
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+
+     <!-- Swiper JS -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+   
 </head>
 <body>
     <header>
@@ -25,28 +35,39 @@
                 <h2>Meus jogos</h2>
                 <p>Os games que eu mais curto jogar!</p>
 
-                <ul class="games-list">
-                    <li>
-                        <a target="_blank" href="https://www.twitch.tv/directory/game/FIFA%2022">
-                            <img src="https://static-cdn.jtvnw.net/ttv-boxart/1869092879_IGDB-188x250.jpg" alt="Imagem do jogo FIFA 23">
-                        </a>
-                    </li>
 
-                    <li>
-                        <a target="_blank" href="https://www.twitch.tv/directory/game/F1%2022">
-                            <img src="https://static-cdn.jtvnw.net/ttv-boxart/1705795372_IGDB-188x250.jpg" alt="Imagem do jogo F1 22">
-                        </a>
-                    </li>
+                <div class="swiper mySwiper">
 
-                    <li>
-                        <a target="_blank" href="https://www.twitch.tv/directory/game/Grand%20Theft%20Auto%20V">
-                            <img src="https://static-cdn.jtvnw.net/ttv-boxart/32982_IGDB-188x250.jpg" alt="Imagem do jogo GTA V">
-                        </a>
-                    </li>
+                    <ul class="games-list swiper-wrapper">
+
+                        <li class="swiper-slide">
+                            <a target="_blank" href="https://www.twitch.tv/directory/game/FIFA%2022">
+                                <img src="https://static-cdn.jtvnw.net/ttv-boxart/1869092879_IGDB-188x250.jpg" alt="Imagem do jogo FIFA 23">
+                            </a>
+                        </li>
+
+                        <li class="swiper-slide">
+                            <a target="_blank" href="https://www.twitch.tv/directory/game/F1%2022">
+                                <img src="https://static-cdn.jtvnw.net/ttv-boxart/1705795372_IGDB-188x250.jpg" alt="Imagem do jogo F1 22">
+                            </a>
+                        </li>
+
+                        <li class="swiper-slide">
+                            <a target="_blank" href="https://www.twitch.tv/directory/game/Grand%20Theft%20Auto%20V">
+                                <img src="https://static-cdn.jtvnw.net/ttv-boxart/32982_IGDB-188x250.jpg" alt="Imagem do jogo GTA V">
+                            </a>
+                        </li>
+
+                        <li class="swiper-slide">
+                            <a target="_blank" href="https://www.twitch.tv/directory/game/Minecraft">
+                                <img src="https://static-cdn.jtvnw.net/ttv-boxart/27471_IGDB-188x250.jpg" alt="Imagem do jogo MINECRAFT">
+                            </a>
+                        </li>
 
 
+                    </ul>
 
-                </ul>
+                </div>
             </div>
         </section>
 
@@ -55,7 +76,7 @@
                 <h2>Canais e stremamers</h2>
                 <p>Lista de canais e transmissões que não perco!</p>
 
-                <ul class="channel-list">
+                <ul class="channel-list" style="gap: 16px;">
                     <li>
                         <a target="_blank" href="https://www.twitch.tv/casimito">
                             <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/32805a78-d927-48bd-8089-bf5efed53ea4-profile_image-150x150.png" alt="Imagem de Casimiro">
@@ -80,9 +101,9 @@
         <section>
             <div>
                 <h2>Minhas redes</h2>
-                <p>Se conecte comigo agora mesmo!</p>
+                <p>Se cone comigo agora mesmo!</p>
 
-                <ul class="games-list">
+                <ul class="games-list" style="gap: 16px;">
 
                     <li>
                         <a target="_blank" href="https://www.twitter.com/parizpaulo_">   
@@ -106,5 +127,11 @@
             </div>
         </section>
     </main>
+
+
+
+    <script src="script.js"></script>
+
+    
 </body>
 </html>
