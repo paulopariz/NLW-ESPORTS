@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -79,6 +81,8 @@ section h2{
 section p{
     letter-spacing: -0.18px;
     color: #A1A1AA;
+    font-size: 19px;
+    font-family: 'VT323', monospace;
 }
 
 section ul{
